@@ -47,8 +47,6 @@ First version.
 
 == A brief Markdown ==
 
-Ordered list:
-
 1. Easy to upload header images.
 1. Easy to order images.
 3. Easy to install the plugin.
