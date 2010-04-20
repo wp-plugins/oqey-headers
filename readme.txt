@@ -4,7 +4,7 @@ Version: 0.1
 Contributors: Dorin and Victor
 Donate link: http://www.qusites.com/oqey-headers-plugin/
 Tags: headers
-Requires at least: 2.0.2
+Requires at least: 2.9.0
 Description: oQey Headers plugin, the header manager for your blog.
 Author: Dorin D. | www.qusites.com
 Author URI: http://www.qusites.com
