@@ -82,7 +82,7 @@ if (function_exists('register_activation_hook')) { register_activation_hook( __F
 	
 	
 function oQeyHeadersPluginUrl() {
-	$url = get_option('siteurl') . '/wp-content/plugins/oqey_headers';   
+	$url = get_option('siteurl') . '/wp-content/plugins/oqey-headers';   
 	return $url;
 } 
 
