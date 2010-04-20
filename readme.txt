@@ -10,7 +10,7 @@ Stable tag: 0.1
 
 == Description ==
 
-
+Probably the best header plugin. 
 oQey Headers plugin is a Wordpress Plugin that allows easy to add and manage images for blog header.
 
 For how to insert the plugin in template visit www.qusites.com
