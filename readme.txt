@@ -21,9 +21,10 @@ For how to insert the plugin in template visit www.qusites.com
 
 == Installation ==
 
-1. Upload plugin files to the `/wp-content/plugins/` directory
+1. Unzip the plugin archive and put oqey-headers folder into your plugins directory (wp-content/plugins/) of the server
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place `<?php if (function_exists('oQeyRandomImage')) { oQeyRandomImage("", ""); } ?>  in your templates header.php file
+3. You will find the plugin in the left menu bar
+
 
 == Frequently Asked Questions ==
 
