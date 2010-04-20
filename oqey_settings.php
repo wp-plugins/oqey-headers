@@ -7,7 +7,7 @@ $oqey_image_url = get_option('siteurl') . '/wp-content/oqey_headers_images/';
 $oqey_header = $wpdb->prefix . "oqey_header"; 
 
 function oQeyHeaderPluginUrlS() {
-	$url = get_option('siteurl') . '/wp-content/plugins/oqey_headers';   
+	$url = get_option('siteurl') . '/wp-content/plugins/oqey-headers';   
 	return $url;
 } 
 //.....................................................
