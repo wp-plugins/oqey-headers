@@ -10,15 +10,15 @@ Stable tag: 0.1
 
 == Description ==
 
-Probably the best header plugin. 
-oQey Headers plugin is a Wordpress Plugin that allows easy to add and manage images for blog header.
 
-For how to insert the plugin in template visit www.qusites.com
+oQey Headers plugin is a Wordpress Plugin that allows to add and manage images for blog header easily.
+
+For instruction on how to insert the plugin into wp template, please visit www.qusites.com
 
 
 == Installation ==
 
-1. Unzip the plugin archive and put oqey-headers folder into your plugins directory (wp-content/plugins/) of the server
+1. Unzip the plugin archive and put oqey-headers folder into your plugins directory (wp-content/plugins/)
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `<?php if (function_exists("oQeyRandomImage")) { oQeyRandomImage("", ""); } ?>` in your templates
 
