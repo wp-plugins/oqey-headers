@@ -1,9 +1,9 @@
 === Plugin Name ===
 Plugin Name: oQey Headers
 Version: 0.1
-Contributors: Dorin and Victor
+Contributors: dariimd
 Donate link: http://www.qusites.com/oqey-headers-plugin/
-Tags: headers
+Tags: headers, images
 Requires at least: 2.9.0
 Tested up to: 2.9
 Stable tag: 0.1
