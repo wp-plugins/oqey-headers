@@ -18,27 +18,27 @@ oQey Headers plugin is a Wordpress Plugin that allows easy to add and manage ima
 
 To insert image  in blog header use this line of code, this function get random image on refresh:
 
-<?php if (function_exists('oQeyRandomImage')) { oQeyRandomImage("", ""); } ?>
+`<?php if (function_exists('oQeyRandomImage')) { oQeyRandomImage("", ""); } ?>`
 
 Ex:
 
-<ul>
+`<ul>
 
 oQeyRandomImage("<li>", "</li>");
 
-</ul>
+</ul>`
 
 you can use this to display
 
-<ul>
+`<ul>
 
 <li><img src="example.jpg" width="x" height="y" alt="text"  /> </li>
 
-</ul>
+</ul>`
 
 or you can get all images and process how you whant:
 
-<?php if (function_exists('oQeyAllImages')) { oQeyAllImages(); } ?>
+`<?php if (function_exists('oQeyAllImages')) { oQeyAllImages(); } ?>`
 
 You can download plugin from www.qusites.com
 
