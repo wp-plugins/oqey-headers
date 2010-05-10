@@ -1,7 +1,7 @@
 === Plugin Name ===
 Plugin Name: oQey Headers
 Version: 0.2
-Contributors: Dorin and Victor
+Contributors: qusites.com
 Donate link: http://www.qusites.com/oqey-headers-plugin/
 Tags: headers, flash headers
 Requires at least: 2.9.0
