@@ -115,6 +115,9 @@ To insert image  in blog header use this line of code, this function get random 
 <p>or you can get all images and process how you whant:</p>
 <p>&lt;?php if (function_exists(&quot;oQeyAllImages&quot;)) { oQeyAllImages(); } ?&gt;</p>
 
+<p>If you want to add flash header, use this code</p>
+<p>&lt;?php if (function_exists(&quot;oQeyFlashImages&quot;)) { oQeyFlashImages(); } ?&gt;</p>
+
 
 </div>
 		  ';
