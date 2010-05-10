@@ -39,13 +39,13 @@ No.
 
 == Changelog ==
 
-= 0.1=
-* First stable version.
+= 0.2=
+* Second stable version, flash support.
 
 == Upgrade Notice ==
 
 = 0.2 =
-Suport flash header.
+Support flash header.
 
 
 == A brief Markdown ==
