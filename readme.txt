@@ -51,7 +51,7 @@ No.
 == Upgrade Notice ==
 
 = 0.2 =
-Support flash header.
+*Support flash header.
 
 = 0.1=
 
