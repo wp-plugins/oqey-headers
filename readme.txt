@@ -43,10 +43,19 @@ No.
 
 * Second stable version, flash support.
 
+= 0.1=
+
+* First stable version.
+
+
 == Upgrade Notice ==
 
 = 0.2 =
 Support flash header.
+
+= 0.1=
+
+* First stable version.
 
 
 == A brief Markdown ==
