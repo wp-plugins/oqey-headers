@@ -20,7 +20,7 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 Plugin Name: oQey Headers
-Version: 0.1
+Version: 0.2
 Description: oQey Headers plugin, the header manager for your blog.
 Author: Dorin D. | www.qusites.com
 Author URI: http://www.qusites.com

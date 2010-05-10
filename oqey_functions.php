@@ -1,8 +1,6 @@
 <?php
 global $wpdb;
 
-
-
 function oQeyAllImages(){// get all images, array
 global $wpdb;
 $oqey_header = $wpdb->prefix . "oqey_header"; 
@@ -38,6 +36,21 @@ $output .= $sli.'<img src="'.$site_url.'/wp-content/oqey_headers_images/'.$image
 }
 
 echo $output;
+}
+
+function oQeyFlashImages(){// get flash header
+
+echo '
+<div id="logo">
+<script type="text/javascript" src="'.get_option('siteurl').'/wp-content/plugins/qvideo/swfobject.js"></script>
+<script type="text/javascript">
+	var flashvars = {};
+	var params = {wMode:"transparent"};
+	var attributes = {id: "logo"};
+	swfobject.embedSWF("'.get_option('siteurl').'/wp-content/plugins/oqey-headers/oqeyheader.swf", "logo", "900", "300", "8.0.0", "", flashvars, params, attributes);
+</script>
+</div>';
+
 }
 
 ?>
