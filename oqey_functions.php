@@ -39,7 +39,7 @@ echo $output;
 }
 
 function oQeyFlashImages(){// get flash header
-
+//get the flash header
 echo '
 <div id="logo">
 <script type="text/javascript" src="'.get_option('siteurl').'/wp-content/plugins/qvideo/swfobject.js"></script>
