@@ -42,7 +42,7 @@ function oQeyFlashImages(){// get flash header
 
 echo '
 <div id="logo">
-<script type="text/javascript" src="'.get_option('siteurl').'/wp-content/plugins/qvideo/swfobject.js"></script>
+<script type="text/javascript" src="'.get_option('siteurl').'/wp-content/plugins/oqey-headers/swfobject.js"></script>
 <script type="text/javascript">
 	var flashvars = {};
 	var params = {wMode:"transparent"};
