@@ -5,7 +5,7 @@ Contributors: Dorin and Victor
 Donate link: http://www.qusites.com/oqey-headers-plugin/
 Tags: headers
 Requires at least: 2.9.0
-Tested up to: 2.9
+Tested up to: 2.9.2
 Stable tag: 0.2
 
 == Description ==
@@ -39,13 +39,23 @@ No.
 
 == Changelog ==
 
+= 0.2=
+
+* Second stable version, flash support.
+
 = 0.1=
+
 * First stable version.
+
 
 == Upgrade Notice ==
 
-= 0.1 =
-First version.
+= 0.2 =
+*Support flash header.
+
+= 0.1=
+
+* First stable version.
 
 
 == A brief Markdown ==
