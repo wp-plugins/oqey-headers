@@ -44,8 +44,8 @@ No.
 
 == Upgrade Notice ==
 
-= 0.1 =
-First version.
+= 0.2 =
+Suport flash header.
 
 
 == A brief Markdown ==
