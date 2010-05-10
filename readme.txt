@@ -3,7 +3,7 @@ Plugin Name: oQey Headers
 Version: 0.2
 Contributors: Dorin and Victor
 Donate link: http://www.qusites.com/oqey-headers-plugin/
-Tags: headers
+Tags: headers, flash headers
 Requires at least: 2.9.0
 Tested up to: 2.9.2
 Stable tag: 0.2
