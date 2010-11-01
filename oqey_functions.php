@@ -31,7 +31,7 @@ $r_image = $wpdb->get_results(" SELECT *
 foreach ($r_image as $image){
 
 list($width, $height, $type, $attr) = getimagesize(ABSPATH."/wp-content/oqey_headers_images/".$image->oqey_h_link);
-$output .= $sli.'<img src="'.$site_url.'/wp-content/oqey_headers_images/'.$image->oqey_h_link.'" alt="'.$image->oqey_h_alt.'" '.$attr.' />'.$fli;
+$output .= $sli.'<img src="'.$site_url.'/wp-content/oqey_headers_images/'.$image->oqey_h_link.'" alt="'.$image->oqey_h_alt.' by wp-gallery-plugin.com" '.$attr.' />'.$fli;
 
 }
 
@@ -39,10 +39,9 @@ echo $output;
 }
 
 function oQeyFlashImages(){// get flash header
-
+//get the flash header
 echo '
 <div id="logo">
-<script type="text/javascript" src="'.get_option('siteurl').'/wp-content/plugins/oqey-headers/js/swfobject.js"></script>
 <script type="text/javascript">
 	var flashvars = {};
 	var params = {wMode:"transparent"};

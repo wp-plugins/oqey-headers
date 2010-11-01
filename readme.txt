@@ -1,19 +1,20 @@
 === Plugin Name ===
 Plugin Name: oQey Headers
-Version: 0.2
-Contributors: qusites.com
+Version: 0.3
+Contributors: wp-gallery-plugin.com
 Donate link: http://www.qusites.com/oqey-headers-plugin/
-Tags: headers, flash headers
-Requires at least: 2.9.0
-Tested up to: 2.9.2
-Stable tag: 0.2
+Tags: headers, flash headers, images, manage 
+Requires at least: 3.0.0
+Tested up to: 3.0.0
+Stable tag: 0.3
 
 == Description ==
 
 
 oQey Headers plugin is a Wordpress Plugin that allows to add and manage images for blog header easily.
 
-New: suport for flash header. 
+NEW: Add image description, you can add some text to your images.
+ - suport for flash header. 
 
 For instruction on how to insert the plugin into wp template, please visit www.qusites.com
 
@@ -39,6 +40,11 @@ No.
 
 == Changelog ==
 
+= 0.3=
+
+* You can add descriptions for the images.
+
+
 = 0.2=
 
 * Second stable version, flash support.
@@ -49,6 +55,10 @@ No.
 
 
 == Upgrade Notice ==
+
+= 0.3=
+
+* You can add descriptions for the images.
 
 = 0.2 =
 *Support flash header.
