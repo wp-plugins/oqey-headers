@@ -25,7 +25,7 @@ $output .= '<li id="img_header_id_'.$oqey_image->oqey_h_id.'">';
 $output .= '<div style="position:relative; width:420px;"> ';
 $output .= '<img src="'.$oqey_image_url.$oqey_image->oqey_h_link.'" alt="'.$oqey_image->oqey_h_alt.'" style="width:400px; max-width:400px; height:auto; border:#999999 thin solid;" />';
 $output .='<a href="#edit"  onclick="EditeazaD(\''.$oqey_image->oqey_h_id.'\'); return false;">
-           <img src="'.oQeyHeaderPluginUrlS().'/images/settings2.png" width="16" height="16" style="position:absolute; left: 402px; top: 0px;" title="Edit/Add description to this image" />
+           <img src="'.oQeyHeaderPluginUrlS().'/images/settings2.png" width="16" height="16" style="position:absolute; left: 402px; top: 3px;" title="Edit/Add description to this image" />
 		   </a>';
 $output .= '<a href="#null" onclick="if(confirm(\''.$message.'\')){ deleteImage(\''.$oqey_image->oqey_h_id.'\'); return false; }" title="Delete this image" >
 			<img src="'.oQeyHeaderPluginUrlS().'/images/delete.png" width="16" height="16" style="position:absolute; left: 402px; top: 30px;" />
