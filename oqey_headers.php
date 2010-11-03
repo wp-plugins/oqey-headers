@@ -161,6 +161,16 @@ jQuery.ajax({
   success: function(html){
     jQuery("#images").html(html);
 	jQuery(function() { jQuery("#oqeysortable").sortable(); });
+	    jQuery("#sort_cats").disableSelection();  
+    jQuery(".dblclick").editable("<?php echo oQeyHeadersPluginUrl(); ?>/oqey_settings.php?imgedit=yes", { 
+      indicator : "Updating...",
+      type      : "textarea",
+	  tooltip   : "Doubleclick to edit...",
+ 	  event     : "dblclick",
+      submit    : "OK",
+      cancel    : "Cancel",
+ 	  style  : "inherit"
+  });	
   }
 });
 }
