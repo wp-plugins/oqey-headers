@@ -16,7 +16,7 @@ oQey Headers plugin is a Wordpress Plugin that allows to add and manage images f
 NEW: Add image description, you can add some text to your images.
  - suport for flash header. 
 
-For instruction on how to insert the plugin into wp template, please visit www.qusites.com
+For instruction on how to insert the plugin into wp template, please visit www.oqeysites.com
 
 
 == Installation ==
@@ -25,6 +25,7 @@ For instruction on how to insert the plugin into wp template, please visit www.q
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `<?php if (function_exists("oQeyRandomImage")) { oQeyRandomImage("", ""); } ?>` in your templates
 4. Place `<?php if (function_exists("oQeyFlashImages")) { oQeyFlashImages(); } ?>` in your templates if you want a flash header, the header is set to show 900 x 300 px, so upload images on this size
+5. Create a folder named "oqey_headers_images" with 775 permission, this is required if the folder was not created automatically by the plugin; may be safe_mode restriction. Please be sure that safe_mode=off.
 
 
 == Frequently Asked Questions ==
