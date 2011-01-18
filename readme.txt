@@ -1,9 +1,9 @@
 === Plugin Name ===
 Plugin Name: oQey Headers
 Version: 0.3
-Contributors: wp-gallery-plugin.com
+Contributors: oQeySites.com
 Donate link: http://www.qusites.com/oqey-headers-plugin/
-Tags: headers, flash headers, images, manage 
+Tags: headers, flash headers, images, manage, text
 Requires at least: 3.0.0
 Tested up to: 3.0.0
 Stable tag: 0.3
