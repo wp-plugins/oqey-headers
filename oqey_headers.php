@@ -1,10 +1,10 @@
 <?php
 // oQey Headers
-// Copyright (c) 2010 wp-gallery-plugin.com
+// Copyright (c) 2011 oqeysites.com
 // This is an plugin for WordPress
 // http://wordpress.org/
 //
-/*  Copyright 2010  wp-gallery-plugin.com  (email : dariimd@gmail.com)
+/*  Copyright 2011 www.oqeysites.com  (email : dorin@oqeysites.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -20,11 +20,11 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 Plugin Name: oQey Headers
-Plugin URI: http://wp-gallery-plugin.com
+Plugin URI: http://oqeysites.com
 Version: 0.3
-Description: oQey Headers plugin, the header manager for your blog, - flash header.
-Author: Dorik
-Author URI:  http://wp-gallery-plugin.com
+Description: oQey Headers plugin, the header manager for your blog, custom flash header.
+Author: oqeysites
+Author URI:  http://oqeysites.com
 */
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'oqey_headers.php' == basename($_SERVER['SCRIPT_FILENAME']))
 	   die ('Please do not load this page directly. Thanks!');
@@ -161,7 +161,7 @@ jQuery.ajax({
   success: function(html){
     jQuery("#images").html(html);
 	jQuery(function() { jQuery("#oqeysortable").sortable(); });
-	    jQuery("#sort_cats").disableSelection();  
+	jQuery("#sort_cats").disableSelection();  
     jQuery(".dblclick").editable("<?php echo oQeyHeadersPluginUrl(); ?>/oqey_settings.php?imgedit=yes", { 
       indicator : "Updating...",
       type      : "textarea",
