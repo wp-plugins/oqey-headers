@@ -120,7 +120,7 @@ To insert image  in blog header use this line of code, this function get random 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>If you really like this plugin and find it useful, help to keep this plugin free and constantly updated by clicking the donate button below.</p><br />
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="3ZV8CCFYAUYKJ">
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
