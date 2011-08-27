@@ -53,16 +53,15 @@ if( isset($_GET['delete_id']) ){
 
 //update order for sneak peek images
 if(isset($_GET['img_header_id'])){//order images
+
 foreach ($_GET['img_header_id'] as $position => $item){
-$h_update = sprintf("UPDATE $oqey_header
-                           SET oqey_h_order = '%d'
-						 WHERE oqey_h_id = '%s'
-					   ", $position, 
-						  $item
-						);						
-$update_h = mysql_query($h_update) or die (mysql_error());
+    
+   $sql = $wpdb->query( $wpdb->prepare("UPDATE $oqey_header SET oqey_h_order = '%d' WHERE oqey_h_id = '%d'", $position, $item ) ); 
+
 }//end foreach
+
 echo "Updated";
+
 }
 
 //edit description
