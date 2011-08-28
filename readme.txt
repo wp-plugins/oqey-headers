@@ -6,7 +6,7 @@ Donate link: http://www.qusites.com/oqey-headers-plugin/
 Tags: headers, flash headers, images, manage, image with text, header + description
 Requires at least: 3.0.0
 Tested up to: 3.0.0
-Stable tag: 0.3
+Stable tag: 0.4
 
 == Description ==
 
