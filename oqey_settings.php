@@ -67,13 +67,9 @@ echo "Updated";
 //edit description
 if(isset($_GET['imgedit'])){ 
 $id = str_replace("d", "", $_REQUEST['id']);
-$update = sprintf("UPDATE $oqey_header
-                        SET oqey_h_description = '%s'
-					  WHERE oqey_h_id = '%d'
-					", mysql_real_escape_string(stripslashes($_POST['value'])), 
-					   $id
-					);						
-$update_d = mysql_query($update) or die (mysql_error());
-if($update_d){ echo stripslashes($_POST['value']); }else{ echo "Error, try again please."; }
+
+$sql = $wpdb->query( $wpdb->prepare("UPDATE $oqey_header SET oqey_h_description = '%s' WHERE oqey_h_id = '%d'", $_POST['value'], $id ) ); 
+
+if($sql){ echo stripslashes($_POST['value']); }else{ echo "Error, try again please."; }
 }
 ?>
