@@ -4,7 +4,7 @@ Version: 0.5
 Contributors: oqeysites
 Donate link: http://www.qusites.com/oqey-headers-plugin/
 Tags: headers, flash headers, images, wp header, manage, image with text, header + description, custom flash headers
-Requires at least: 3.0.0
+Requires at least: 3.2.1
 Tested up to: 3.2.1
 Stable tag: 0.5
 
